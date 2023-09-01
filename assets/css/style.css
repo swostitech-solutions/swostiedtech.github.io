@@ -386,7 +386,10 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  /* background: #37517e; */
+  /* background: linear-gradient(rgba(4, 36, 62, 0.1), rgba(4, 23, 55, 0.1)), url("../img/hero1.jpg") fixed center center; */
+  background: linear-gradient(rgba(2, 2, 160, 0.569), rgba(2, 2, 160, 0.995)), url("../img/hero1.jpg") fixed right center;
+
 }
 
 #hero .container {
@@ -838,23 +841,29 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Services Freshers 
 --------------------------------------------------------------*/
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  width: 100%;
 }
 
 .services .icon-box .icon {
   margin-bottom: 10px;
+  margin-top: -20px;
 }
 
 .services .icon-box .icon i {
-  color: #47b2e4;
-  font-size: 36px;
+  color: #0d6efd;
+  font-size: 32px;
   transition: 0.3s;
+}
+
+.services .icon-box button {
+  margin-bottom: 10px;
 }
 
 .services .icon-box h4 {
@@ -872,6 +881,14 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.services .icon-box ul {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .services .icon-box:hover {
@@ -881,6 +898,71 @@ section {
 .services .icon-box:hover h4 a {
   color: #47b2e4;
 }
+
+/*--------------------------------------------------------------
+# Placement Section 
+--------------------------------------------------------------*/
+.placement-wrapper {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.placement-image {
+  margin-bottom: 10px;
+  margin-top: -20px;
+  font-size: 30px;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+/* .placement-wrapper .placement-image img {
+  color: red;
+  font-size: 32px;
+  transition: 0.3s;
+} */
+
+/* .placement-wrapper .placement-image button {
+  margin-bottom: 10px;
+} */
+
+.placement-title h3 {
+  font-weight: 500;
+  /* margin-bottom: 15px; */
+  font-size: 20px;
+  margin-top: 30px;
+  /* background: red; */
+}
+
+/* .placement-title h3 a {
+  color: #37517e;
+  transition: ease-in-out 0.3s;
+} */
+
+/* .placement-wrapper p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 10px;
+} */
+
+/* .placement-wrapper .placement-image ul {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 10px;
+} */
+
+.placement-wrapper:hover {
+  transform: translateY(-10px);
+}
+
+/* .placement-wrapper .placement-image:hover {
+  color: red;
+} */
 
 /*--------------------------------------------------------------
 # Cta
@@ -1095,7 +1177,7 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team .member {
+/* .team .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -1188,7 +1270,7 @@ section {
 
 .team .member .social a+a {
   margin-left: 8px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Pricing
