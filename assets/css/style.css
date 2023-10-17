@@ -119,22 +119,20 @@ h6 {
 }
 
 #header .logo {
-  font-size: 30px;
-  margin: 0;
   padding: 0;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  margin: 0px;
+  max-height: 100px;
+  /* background: #37517e; */
+  /* border: 1px solid; */
 }
 
-#header .logo a {
+/* #header .logo a {
   color: #fff;
-}
+} */
 
-#header .logo img {
+/* #header .logo img {
   max-height: 40px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
