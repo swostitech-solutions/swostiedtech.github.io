@@ -259,3 +259,37 @@
 
 
 
+  // Testimonials carousel
+    $(".testimonial-carousel").owlCarousel({
+        center: true,
+        autoplay: true,
+        smartSpeed: 2000,
+        dots: true,
+        loop: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            576:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:3
+            }
+        }
+    });
+
+
+  // // Initialize Owl Carousel
+  // $(document).ready(function(){
+  //   $(".testimonial-carousel").owlCarousel({
+  //     items: 1,
+  //     loop: true,
+  //     autoplay: true, // Enable autoplay
+  //     autoplayTimeout: 5000, // Set autoplay timeout in milliseconds (e.g., 5000ms for 5 seconds)
+  //   });
+  // });
+
